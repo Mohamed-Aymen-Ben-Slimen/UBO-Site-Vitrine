@@ -54,6 +54,7 @@ a:hover {
     color: #000000;
 }
 
+
 img {
     max-width: 100%;
     height: auto;
@@ -310,14 +311,14 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area .logo {
     text-transform: uppercase;
-    letter-spacing: 2px;
     height: inherit;
     margin-top: 8px;
     padding-left: 0;
 }
 
-.mainmenu-area .logo h2 {
+.mainmenu-area .logo img {
     margin-bottom: 0;
+
 }
 
 .mainmenu-area #primary-menu > ul > li > a {
@@ -368,7 +369,7 @@ input:-webkit-autofill:focus {
 
 .client-area,
 .header-area {
-    background: #000000 url('images/parallax-2.jpg') no-repeat scroll center center / cover;
+    background: #000000 url('images/bg-header.png') no-repeat scroll center center / cover;
 }
 
 .anlge-bg {
@@ -987,16 +988,39 @@ preloader
     18.1 HOME TWO VIDEO PROMO
 ------------------------------*/
 
+.owl-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubo-container {
+    height: 600px;
+}
+
 .promo-area-content {
-    margin-top: -60px;
+    margin-top: 60px;
 }
 
 .video-promo-slider {
-    background: rgba(0, 0, 0, 0) url("images/promo-mockup.png") no-repeat scroll center center / auto 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    background: rgba(0, 0, 0, 0) url("images/ubo-video.png") no-repeat scroll center center / 100% auto;
 }
 
 .single-video-promo-slide {
     margin: 60px 80px;
+    width: 70%;
+}
+
+.single-video-promo-slide img {
+    border-radius: 20px;
+    border: 3px white solid;
+    width: 50%;
 }
 
 .promo-area .video-play-button {
@@ -1016,65 +1040,6 @@ preloader
 
 .video-promo-slider .owl-item img {
     width: auto;
-}
-
-/*--------------------------------
-    6. VIDEO AREA
----------------------------------*/
-
-.video-area .area-bg::before {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-}
-
-.video-area .area-bg {
-    background: rgba(0, 0, 0, 0) url("images/video-promo-slide-1.jpg") no-repeat scroll center top / cover;
-}
-
-.video-area .area-bg::after {
-    background: rgba(0, 0, 0, 0) linear-gradient(120deg, transparent 50%, #1193d4 50%) repeat scroll 0 0;
-    opacity: 0.9;
-}
-
-.video-play-button {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 50px;
-    padding-left: 60px;
-    position: relative;
-}
-
-.video-area-popup {
-    background: transparent none repeat scroll 0 0;
-    border: 1px solid;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 30px;
-    height: 50px;
-    left: 0;
-    line-height: 1;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    width: 50px;
-}
-
-.video-area-popup:hover {
-    background: #fff none repeat scroll 0 0;
-    border-color: #fff;
-    color: #1193d4;
-}
-
-.video-play-button h3 {
-    border-bottom: 1px solid;
-    font-family: "Open Sans", sans-serif;
-    margin-bottom: 0;
-    text-transform: uppercase;
 }
 
 #containerPass {
