@@ -49,6 +49,23 @@
         animateOut: 'fadeOut',
         center: true,
     });
+    /* Hero section Slider Active
+  =============================*/
+    $('.hero-section-slider').owlCarousel({
+        loop: false,
+        margin: 0,
+        nav: true,
+        autoplay: true,
+        dots: true,
+        dotsData: false,
+        autoplayTimeout: 30000,
+        smartSpeed: 1000,
+        navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right" ></i>'],
+        items: 1,
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOut',
+        center: true,
+    });
     /* testimonials Slider Active
     =============================*/
     $('.clients').owlCarousel({

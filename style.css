@@ -27,6 +27,8 @@ CSS INDEX
 17. Preloader-css
 -----------------------------------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 /*-----------------
 1. Google font
 ------------------*/
@@ -257,7 +259,7 @@ input:-webkit-autofill:focus {
     transition: 0.3s;
     border-radius: 5px;
     -webkit-transform: translateY(0);
-    transform: translateY(0)
+    transform: translateY(0);
 }
 
 .box:hover {
@@ -273,7 +275,7 @@ input:-webkit-autofill:focus {
 }
 
 .box .box-icon {
-    height: 160px;
+    height: 100%;
     margin-bottom: 20px;
 }
 
@@ -1049,6 +1051,74 @@ preloader
     width: auto;
 }
 
-#containerPass {
+.containerPass {
     pointer-events: none;
+}
+
+.ubowet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section-slider .owl-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+#particles-js2 {
+    background-color: #0b0b0b;
+}
+
+#superUbo {
+
+    animation: superUboAnimation ease infinite;
+    animation-duration: 2.4s;
+}
+
+@keyframes superUboAnimation {
+    0% {
+        transform: translate(-60px, -60px);
+    }
+    70% {
+        transform: translate(0px, 0px);
+    }
+    100% {
+        transform: translate(-60px, -60px);
+    }
+}
+
+.title {
+    font: normal normal normal 69px/83px Fredoka One;
+    text-align: center;
+}
+
+.ubo-light {
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    width: 700px;
+    height: auto;
+    opacity: 0.7;
+    pointer-events: none;
+    animation: lightAnimation ease infinite;
+    animation-duration: 2.4s;
+}
+
+
+@keyframes lightAnimation {
+    0% {
+        opacity: 0.7;
+    }
+    70% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.7;
+    }
 }
