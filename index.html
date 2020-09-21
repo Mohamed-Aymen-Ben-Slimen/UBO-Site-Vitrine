@@ -90,7 +90,7 @@
                 <div class="col-xs-12 col-md-6 header-text">
                     <h2 class="title">Ubo, Ready to connect?</h2>
                     <p>Ubo est un compagnon intelligent dédié aux enfants atteints des troubles du spectre autistique.</p>
-                    <button data-video-id="IHhNTt3oxtY" class="video-area-popup"  style="pointer-events: all;">Watch video<i class=""></i></button>
+                    <button data-video-id="IHhNTt3oxtY" class="video-area-popup video-button"  style="pointer-events: all;">Watch video<i class=""></i></button>
                 </div>
                 <div class="hidden-xs hidden-sm col-md-6 text-right">
                     <img src="images/ubo-blow-bubbles.png" style="transform: rotateY(180deg);"/>
@@ -130,7 +130,7 @@
                                 <h2>Ubo, Ready to connect?</h2>
                                 <p>Il a pour but d'assister les enfants atteints des troubles du spectre autistique pour poursuivre leur thérapie
                                     en dehors du centre spécialisé afin de maintenir leurs progrès et les apprendre à interagir avec leus entourage.</p>
-                                <button data-video-id="IHhNTt3oxtY" class="video-area-popup"  style="pointer-events: all;">Watch video<i class=""></i></button>
+                                <button data-video-id="IHhNTt3oxtY" class="video-area-popup video-button"  style="pointer-events: all;">Watch video<i class=""></i></button>
                             </div>
                             <div class="hidden-xs hidden-sm col-md-6 text-right">
                                 <img src="images/super-ubo.png" id="superUbo" />
@@ -167,6 +167,13 @@
     </header>
 
     <!--Header-area/-->
+
+    <audio  loop autoplay id="audio">
+        <source src="mp3/bensound-ukulele.ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <script>audio = document.getElementById('audio'); audio.volume = 0.1; audio.play(); console.log(audio); </script>
+
 
 
 
@@ -229,19 +236,19 @@
                             <div class="single-video-promo-slide">
                                 <img src="images/video-promo-slide-1.jpg" alt="">
                                 <div class="video-play-button">
-                                    <button data-video-id="IHhNTt3oxtY" class="video-area-popup"><i class="fa fa-play-circle"></i></button>
+                                    <div data-video-id="IHhNTt3oxtY" class="video-area-popup"><img class="button-video" src="images/video.png"/></div>
                                 </div>
                             </div>
                             <div class="single-video-promo-slide">
                                 <img src="images/video-promo-slide-2.jpg" alt="">
                                 <div class="video-play-button">
-                                    <button data-video-id="IHhNTt3oxtY" class="video-area-popup"><i class="fa fa-play-circle"></i></button>
+                                    <div data-video-id="IHhNTt3oxtY" class="video-area-popup"><img class="button-video" src="images/video.png"/></div>
                                 </div>
                             </div>
                             <div class="single-video-promo-slide">
                                 <img src="images/video-promo-slide-3.jpg" alt="">
                                 <div class="video-play-button">
-                                    <button data-video-id="IHhNTt3oxtY" class="video-area-popup"><i class="fa fa-play-circle"></i></button>
+                                    <div data-video-id="IHhNTt3oxtY" class="video-area-popup"><img class="button-video" src="images/video.png"/></div>
                                 </div>
                             </div>
                         </div>
@@ -466,6 +473,8 @@
             </div>
         </div>
     </section>
+
+
 
 
 
@@ -956,6 +965,8 @@
     <!--Main-active-JS-->
     <script src="js/main.js"></script>
     <script src="js/particuleCustom.js"></script>
+
+
 
 </body>
 

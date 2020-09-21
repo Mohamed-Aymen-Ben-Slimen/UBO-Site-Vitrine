@@ -1041,6 +1041,8 @@ preloader
     transform: translateX(-50%) translateY(-50%);
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+
+
 }
 
 .promo-area .video-promo-slider:hover .video-play-button {
@@ -1121,4 +1123,35 @@ preloader
     100% {
         opacity: 0.7;
     }
+}
+
+
+#world {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: linear-gradient(#e4e0ba, #f7d9aa);
+}
+
+.video-button {
+    background-color: #FACA78;
+    font: normal normal normal 18px/18px Fredoka One;
+    padding: 16px 20px;
+    border-radius: 60px;
+    box-shadow: none;
+    border: none;
+    color: white;
+}
+
+.video-button:hover {
+    background-color: #EA792D;
+}
+
+.video-play-button .video-area-popup {
+    border: none !important;
+    border-radius: 50%;
+    cursor: pointer;
 }
