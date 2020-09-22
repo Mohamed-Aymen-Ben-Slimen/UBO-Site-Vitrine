@@ -1002,7 +1002,11 @@ preloader
 }
 
 .ubo-container {
-    height: 600px;
+    width: 80%;
+    margin: 0 auto !important;
+  position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .promo-area-content {
@@ -1050,7 +1054,8 @@ preloader
 }
 
 .video-promo-slider .owl-item img {
-    width: auto;
+    width: 100%;
+    margin: 0 !important;
 }
 
 .containerPass {
