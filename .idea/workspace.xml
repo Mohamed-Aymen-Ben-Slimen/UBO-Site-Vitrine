@@ -19,20 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6b9c80b-0df4-49b4-a409-39bc8b537a9f" name="Default Changelist" comment="bigger video">
+    <list default="true" id="f6b9c80b-0df4-49b4-a409-39bc8b537a9f" name="Default Changelist" comment="set meta data on head">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/particles/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/particles/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/particles/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/particles/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/particles/demo/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/particles/demo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/particles/demo/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/particles/demo/js/lib/stats.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/particles/demo/particles.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/particles/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/bensound-ukulele.mp3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +84,9 @@
       <workItem from="1600531477072" duration="2439000" />
       <workItem from="1600623767452" duration="4276000" />
       <workItem from="1600686354467" duration="7315000" />
-      <workItem from="1600764735309" duration="2904000" />
+      <workItem from="1600764735309" duration="3581000" />
+      <workItem from="1600788138845" duration="598000" />
+      <workItem from="1600853918420" duration="2189000" />
     </task>
     <task id="LOCAL-00001" summary="bubbles">
       <created>1600161364065</created>
@@ -139,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600778198343</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="set meta data on head">
+      <created>1600778738479</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600778738479</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +160,8 @@
     <MESSAGE value="ubo blows bubbles" />
     <MESSAGE value="super ubo" />
     <MESSAGE value="bigger video" />
-    <option name="LAST_COMMIT_MESSAGE" value="bigger video" />
+    <MESSAGE value="set meta data on head" />
+    <option name="LAST_COMMIT_MESSAGE" value="set meta data on head" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600113063104">
@@ -178,15 +177,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600688445097" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600714267294">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600779403680">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600164808428" />
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600714267294" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600778242406">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600779403680" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600778743849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600181461167" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600778242406" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600778743849" />
   </component>
 </project>
