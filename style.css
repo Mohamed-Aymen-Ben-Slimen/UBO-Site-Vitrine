@@ -556,6 +556,7 @@ input:-webkit-autofill:focus {
 }
 
 .single-team .team-photo {
+    position: relative;
     margin-bottom: 20px;
     padding-top: 20px;
     overflow: hidden;
@@ -565,16 +566,39 @@ input:-webkit-autofill:focus {
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: 0.3s;
-    transition: 0.3s;
+    transition: all 0.3s ease;
+}
+
+.team-member-img {
+    transition: 0s;
+}
+
+.team-member-img-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0s ease;
 }
 
 .single-team:hover .team-photo img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1)
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
 }
 
+.single-team:hover .team-photo .team-member-img {
+    opacity: 0;
+}
+
+.single-team:hover .team-photo .team-member-img-2 {
+    opacity: 1;
+}
+
+
+
 .single-team h4 {
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .single-team h6 {
