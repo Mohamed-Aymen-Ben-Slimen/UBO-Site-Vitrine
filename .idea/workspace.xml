@@ -20,15 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6b9c80b-0df4-49b4-a409-39bc8b537a9f" name="Default Changelist" comment="set meta data on head">
-      <change afterPath="$PROJECT_DIR$/images/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aymen1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aymen2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/manette.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/raouf1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/raouf2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,18 +51,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\images" />
-      <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\images" />
       <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\mp3" />
       <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\css" />
+      <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\images" />
       <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\js" />
     </key>
   </component>
@@ -98,7 +96,10 @@
       <workItem from="1601043733613" duration="601000" />
       <workItem from="1601071764989" duration="17000" />
       <workItem from="1601125947154" duration="607000" />
-      <workItem from="1601159763707" duration="2736000" />
+      <workItem from="1601159763707" duration="3341000" />
+      <workItem from="1601205184440" duration="626000" />
+      <workItem from="1601226518273" duration="21000" />
+      <workItem from="1601285748566" duration="5226000" />
     </task>
     <task id="LOCAL-00001" summary="bubbles">
       <created>1600161364065</created>
@@ -156,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600880995238</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="set meta data on head">
+      <created>1601163250458</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601163250458</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,15 +204,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600688445097" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601126881119">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601226537168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600164808428" />
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601126881119" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600881000462">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601226537168" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601163253548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600181461167" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600881000462" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601163253548" />
   </component>
 </project>
