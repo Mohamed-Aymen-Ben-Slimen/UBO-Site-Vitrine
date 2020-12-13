@@ -58,7 +58,7 @@
         autoplay: true,
         dots: true,
         dotsData: false,
-        autoplayTimeout: 30000,
+        autoplayTimeout: 300000,
         smartSpeed: 1000,
         navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right" ></i>'],
         items: 1,
