@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6b9c80b-0df4-49b4-a409-39bc8b537a9f" name="Default Changelist" comment="team photos" />
+    <list default="true" id="f6b9c80b-0df4-49b4-a409-39bc8b537a9f" name="Default Changelist" comment="Update promo video">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,14 +49,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\images" />
+      <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\images" />
       <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\mp3" />
       <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\css" />
-      <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\images" />
       <recent name="C:\Users\moham\Desktop\Projects\Autism\Vitrine\colid-colorlib\js" />
     </key>
   </component>
